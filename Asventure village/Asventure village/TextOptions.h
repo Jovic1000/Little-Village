@@ -4,7 +4,7 @@ const int NUMBER_OF_MESSEGES = 3;
 const char* systemMsg[NUMBER_OF_MESSEGES]
 {
 	"Welcome to the village",
-	"Goodbye",
+	"--Goodbye--",
 	"Sorry but that is not a option"
 };
 

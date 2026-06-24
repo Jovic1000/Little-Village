@@ -13,15 +13,36 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Arias">
+      <UniqueIdentifier>{a60276b5-da35-4855-b52b-dce0a5591637}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Arias">
+      <UniqueIdentifier>{daffa4a1-f70e-4c82-b179-21ce59c0d120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IInterfaces">
+      <UniqueIdentifier>{1760bcb4-4f6f-4bd9-81a6-0b0776fc454d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Misc">
+      <UniqueIdentifier>{fb8ada17-1f8d-4261-aa39-e262659b3b1a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="BaseAria.cpp">
+      <Filter>Source Files\Arias</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="IAria.h">
+      <Filter>Header Files\IInterfaces</Filter>
+    </ClInclude>
     <ClInclude Include="TextOptions.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseAria.h">
+      <Filter>Header Files\Arias</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

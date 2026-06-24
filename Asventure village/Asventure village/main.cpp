@@ -8,21 +8,26 @@ int main()
 {
 	char input;
 
-	bool isFailedInput;
+	bool isFailedInput = false;
 	bool isGameover = false;
 
 	while (!isGameover)
 	{
+		system("cls");
+
 		cout << "Welcome to little village" << endl;
 
 		for (int i = 0; i < NUMBER_OF_MENU_OPTIONS; i++)
 		{
 			cout << menuOptions[i] << endl;
 		}
+		
 		if (isFailedInput)
 		{
-			cout << systemMsg[2];
+			cout << systemMsg[2] << endl;
 		}
+
+
 
 		_kbhit();
 		input = _getch();
@@ -37,14 +42,16 @@ int main()
 				break;
 		case('3'):
 
+			isGameover = true;
+			cout << systemMsg[1] << endl;
 				break;
+
 			default:
 				isFailedInput = true;
 				break;
 		}
-	}
 
-	system("cls");
+	}
 
 	return 0;
 }

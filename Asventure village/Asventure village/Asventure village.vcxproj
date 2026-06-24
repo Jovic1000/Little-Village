@@ -125,11 +125,16 @@
   <ItemGroup>
     <ClCompile Include="BaseAria.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="VillageAria.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Arias.h" />
     <ClInclude Include="BaseAria.h" />
     <ClInclude Include="IAria.h" />
+    <ClInclude Include="Menu.h" />
     <ClInclude Include="TextOptions.h" />
+    <ClInclude Include="VillageAria.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

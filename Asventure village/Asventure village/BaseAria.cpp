@@ -1,11 +1,15 @@
 #include "BaseAria.h"
 
-void BaseAria::Update()
+void BaseArea::Update(char input, bool isGameover, bool isFailedInput)
 {
 	// update what the are dose 
 }
 
-void BaseAria::Render()
+void BaseArea::Render()
 {
 	// desplayt the results of aria
+}
+
+BaseArea::BaseArea()
+{
 }

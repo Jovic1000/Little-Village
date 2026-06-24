@@ -33,6 +33,12 @@
     <ClCompile Include="BaseAria.cpp">
       <Filter>Source Files\Arias</Filter>
     </ClCompile>
+    <ClCompile Include="VillageAria.cpp">
+      <Filter>Source Files\Arias</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\Arias</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IAria.h">
@@ -43,6 +49,15 @@
     </ClInclude>
     <ClInclude Include="BaseAria.h">
       <Filter>Header Files\Arias</Filter>
+    </ClInclude>
+    <ClInclude Include="VillageAria.h">
+      <Filter>Header Files\Arias</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files\Arias</Filter>
+    </ClInclude>
+    <ClInclude Include="Arias.h">
+      <Filter>Header Files\Misc</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

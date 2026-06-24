@@ -1,13 +1,12 @@
 #pragma once
-#include "IAria.h"
-class BaseArea : public IAria
+#include "BaseAria.h"
+class VillageAria : public BaseArea
 {
 public:
 	void Update(char input, bool isGameover, bool isFailedInput) override;
 	void Render() override;
 
-	BaseArea();
-
+	VillageAria();
 private:
 
 };

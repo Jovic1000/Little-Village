@@ -1,4 +1,5 @@
 #pragma once
+#include <iostream>
 
 const int NUMBER_OF_MESSEGES = 3;
 const char* systemMsg[NUMBER_OF_MESSEGES]
